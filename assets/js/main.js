@@ -216,97 +216,10 @@ document.getElementById('btn-tarif').onclick = function(event) {
 
 /*форма */
 
-document.getElementById('contactForm').addEventListener('submit', function(event) {
-	event.preventDefault();
-	
-	let isValid = true;
-
-	// Имя
-	const name = document.getElementById('name').value;
-	const nameError = document.getElementById('nameError');
-	if (!name) {
-			isValid = false;
-			nameError.textContent = 'Имя обязательно для заполнения.';
-	} else {
-			nameError.textContent = '';
-	}
-
-	// Номер телефона
-	const phone = document.getElementById('phone').value;
-	const phoneError = document.getElementById('phoneError');
-	const phonePattern = /^\d{10}$/; // Пример простого паттерна для телефона
-	if (!phone) {
-			isValid = false;
-			phoneError.textContent = 'Номер телефона обязателен для заполнения.';
-	} else if (!phonePattern.test(phone)) {
-			isValid = false;
-			phoneError.textContent = 'Введите корректный номер телефона (10 цифр).';
-	} else {
-			phoneError.textContent = '';
-	}
-
-	// Город
-	const city = document.getElementById('city').value;
-	const cityError = document.getElementById('cityError');
-	if (!city) {
-			isValid = false;
-			cityError.textContent = 'Выберите город.';
-	} else {
-			cityError.textContent = '';
-	}
-
-	// Регион
-	const region = document.getElementById('region').value;
-	const regionError = document.getElementById('regionError');
-	if (!region) {
-			isValid = false;
-			regionError.textContent = 'Выберите регион.';
-	} else {
-			regionError.textContent = '';
-	}
-
-	if (isValid) {
-			window.location.href = '/thank/thank.html';
-	}
-});
-
-
-/*
-function updateButton() {
-  if (button.value === "Включить ПК") {
-    button.value = "Выключить пк";
-    paragraph.textContent = "ПК включён!";
-  } else {
-    button.value = "Включить ПК";
-    paragraph.textContent = "ПК выключен.";
-  }
-}
-*/
 
 
 
-/*
-
-var nodes = document.getElementById('dewey');
-for (var i = 0; i < nodes.length; i++) {
-  if (nodes[i].type == "radio")
-    nodes[i].checked = true;
-}*/
 
 
 
-/*
-const button = document.getElementById('btn1');
-const paragraph = document.getElementById("dewey");
 
-button.addEventListener("click", updateButton);
-
-function updateButton() {
-  if (button.value === "Включить ПК") {
-    button.value = "Выключить пк";
-    paragraph.textContent = "ПК включён!";
-  } else {
-    button.value = "Включить ПК";
-    paragraph.textContent = "ПК выключен.";
-  }
-}*/

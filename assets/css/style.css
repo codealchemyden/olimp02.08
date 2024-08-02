@@ -345,12 +345,15 @@ input::-webkit-input-placeholder {
 	z-index: 99;
 	padding: 18px 0;
 }
-.header-forma{
+
+.header-forma {
 	background: #000529;
 }
-.forma-section{
+
+.forma-section {
 	padding-top: 10rem !important;
 }
+
 .mainmenu {
 	text-align: right;
 }
@@ -1798,83 +1801,92 @@ h4.post-title a {
 	margin-top: 5rem;
 }
 
-input[type="radio"]{
+input[type="radio"] {
 	position: absolute !important;
 	top: 3%;
 	left: 3%;
-  appearance: none;
-  background: #fff;
-  border: 2px solid #415674;
-  height: 1.5em;
-  width: 1.5em;
-  border-radius: 100%;
-  vertical-align: text-bottom;
-  position: relative;
+	appearance: none;
+	background: #fff;
+	border: 2px solid #415674;
+	height: 1.5em;
+	width: 1.5em;
+	border-radius: 100%;
+	vertical-align: text-bottom;
+	position: relative;
 }
+
 input[type="radio"]::before {
-  content: "";
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-  top: 0;
+	content: "";
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	top: 0;
 }
+
 input[type="radio"]:checked::before {
-  border: 5px solid transparent;
-  border-radius: 100%;
-  background: #4b83fc;
-  margin: 4px;
+	border: 5px solid transparent;
+	border-radius: 100%;
+	background: #4b83fc;
+	margin: 4px;
 }
+
 .price-details p {
 	color: #666666;
 }
 
-.content-precio{
-		background:white;
-    -webkit-box-shadow: -1px 1px 19px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 1px 19px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: -1px 1px 19px 0px rgba(0, 0, 0, 0.75);
+.content-precio {
+	background: white;
+	-webkit-box-shadow: -1px 1px 19px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -1px 1px 19px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: -1px 1px 19px 0px rgba(0, 0, 0, 0.75);
 
-	
+
 }
-.thank{
+
+.thank {
 	text-align: center;
 	margin-top: 10rem;
-	background:transparent;
+	background: transparent;
 }
 
 
-.primero{
+.primero {
 	display: flex;
 	justify-content: space-between;
 	padding: 2rem;
 }
-.primero h2{
-color: black;
+
+.primero h2 {
+	color: black;
 }
-.select h4{
+
+.select h4 {
 	color: #222 !important;
 }
-.select p{
+
+.select p {
 	color: black !important;
 }
-.mi-btn{
+
+.mi-btn {
 	border: 1px solid rgb(255, 255, 255);
 	color: rgb(255, 255, 255);
 	border-radius: 15px;
 	padding: 16px 25px;
 	display: block;
 	margin: 1rem auto;
-	width: 50%;
+	text-align: center;
 	text-transform: uppercase;
 	cursor: pointer;
 	font-weight: 800;
 	font-size: 1.3rem;
 	background-image: linear-gradient(to right, rgb(0, 5, 41) 1%, rgb(0, 32, 85) 24%, rgb(0, 93, 181) 67%, rgb(0, 116, 217) 100%);
 }
-.mi-btn:hover{
+
+.mi-btn:hover {
 	background: #fff;
 	border: 1px solid #fff;
 	color: #666;
@@ -1885,27 +1897,33 @@ color: black;
 	color: #fff;
 	border: 2px solid #005db5;
 }
+
 /*форма*/
 
-.mi-form{
+.mi-form {
 	width: 100%;
 }
-.mi-form h2{
+
+.mi-form h2 {
 	text-align: center;
-	color:#000529;
+	color: #000529;
 }
-.mi-form button{
+
+.mi-form button {
 	text-align: center;
-	background:#000529;
+	background: #000529;
 }
-.form-tel{
-text-align: center;
-line-height: 1.7;
+
+.form-tel {
+	text-align: center;
+	line-height: 1.7;
 }
-.form-tel a{
+
+.form-tel a {
 	display: block;
-font-size: 20px;
+	font-size: 20px;
 }
+
 form {
 	background: white;
 	padding: 20px;
@@ -1915,22 +1933,30 @@ form {
 	width: 100%;
 	margin: 0 auto;
 }
+form label{
+	text-align-last: left;
+}
 .form-group {
 	margin-bottom: 15px;
 }
+
 .form-group label {
 	display: block;
 	margin-bottom: 5px;
 }
-.form-group input, .form-group select {
+
+.form-group input,
+.form-group select {
 	width: 100%;
 	padding: 10px;
 	box-sizing: border-box;
 }
+
 .form-group .error {
 	color: red;
 	font-size: 0.9em;
 }
+
 button {
 	width: 100%;
 	padding: 10px;
@@ -1940,6 +1966,7 @@ button {
 	border-radius: 5px;
 	cursor: pointer;
 }
+
 button:hover {
 	background-color: #0056b3;
 }
