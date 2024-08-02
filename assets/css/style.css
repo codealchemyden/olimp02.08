@@ -1769,6 +1769,7 @@ h4.post-title a {
 
 .politica h1 {
 	margin: 20px auto;
+	font-weight: bold;
 	color: #fff;
 }
 
@@ -1912,6 +1913,8 @@ input[type="radio"]:checked::before {
 .mi-form button {
 	text-align: center;
 	background: #000529;
+	padding: 1rem 0;
+    width: 100%;
 }
 
 .form-tel {
